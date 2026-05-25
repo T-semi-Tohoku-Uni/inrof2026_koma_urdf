@@ -45,27 +45,6 @@
   </collision>
 </link>
 
-<link name="wheel_control_board_v7_2">
-  <inertial>
-    <origin xyz="-0.008950875512003416 -0.039393966482722906 0.10000262508964408" rpy="0 0 0"/>
-    <mass value="0.05597515361092653"/>
-    <inertia ixx="2.1e-05" iyy="1.9e-05" izz="4e-05" ixy="-1e-05" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.011791 -0.121741 -0.0381" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="steel_satin"/>
-  </visual>
-  <collision>
-    <origin xyz="0.011791 -0.121741 -0.0381" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
 <link name="raspi4_bracket_v1_1">
   <inertial>
     <origin xyz="1.0358811586286266e-11 -0.004190801342254108 0.011212626337856427" rpy="0 0 0"/>
@@ -129,7 +108,7 @@
   </collision>
 </link>
 
-<link name="DZ47B-63_circuit_breaker_holder_v3_1">
+<link name="DZ47B_63_circuit_breaker_holder_v3_1">
   <inertial>
     <origin xyz="0.02229875370121319 -0.03862280991922731 0.002938007686629586" rpy="0 0 0"/>
     <mass value="0.012274791356152887"/>
@@ -138,14 +117,14 @@
   <visual>
     <origin xyz="0.088434 -0.095997 -0.0365" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://assembly_main_description/meshes/DZ47B-63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://assembly_main_description/meshes/DZ47B_63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="steel_satin"/>
   </visual>
   <collision>
     <origin xyz="0.088434 -0.095997 -0.0365" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://assembly_main_description/meshes/DZ47B-63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://assembly_main_description/meshes/DZ47B_63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -167,27 +146,6 @@
     <origin xyz="-0.053261 -0.066075 -0.0765" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/arm_root_v1_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="wheel_control_board_v7_1">
-  <inertial>
-    <origin xyz="0.009908124487998424 0.03799703351727894 0.0016026250896445035" rpy="0 0 0"/>
-    <mass value="0.05597515361092653"/>
-    <inertia ixx="2.1e-05" iyy="1.9e-05" izz="4e-05" ixy="-1e-05" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.03065 -0.04435 -0.0365" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="steel_satin"/>
-  </visual>
-  <collision>
-    <origin xyz="0.03065 -0.04435 -0.0365" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -324,12 +282,6 @@
   <child link="arm_bracket_temp_v12_1"/>
 </joint>
 
-<joint name="Rigid 6" type="fixed">
-  <origin xyz="0.018859 0.077391 0.0016" rpy="0 0 0"/>
-  <parent link="wheel_control_board_v7_1"/>
-  <child link="wheel_control_board_v7_2"/>
-</joint>
-
 <joint name="Rigid 7" type="fixed">
   <origin xyz="0.0 0.176825 0.0365" rpy="0 0 0"/>
   <parent link="base_link"/>
@@ -351,19 +303,13 @@
 <joint name="Rigid 17" type="fixed">
   <origin xyz="-0.088434 0.095997 0.0365" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="DZ47B-63_circuit_breaker_holder_v3_1"/>
+  <child link="DZ47B_63_circuit_breaker_holder_v3_1"/>
 </joint>
 
 <joint name="Rigid 26" type="fixed">
   <origin xyz="0.017558 0.001411 0.04" rpy="0 0 0"/>
   <parent link="arm_bracket_temp_v12_1"/>
   <child link="arm_root_v1_1"/>
-</joint>
-
-<joint name="Rigid 27" type="fixed">
-  <origin xyz="-0.03065 0.04435 0.0365" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="wheel_control_board_v7_1"/>
 </joint>
 
 <joint name="Revolute 1" type="revolute">

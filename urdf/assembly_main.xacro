@@ -1,0 +1,415 @@
+<?xml version="1.0" ?>
+<robot name="assembly_main" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="/home/keigo/inrof2026_koma_urdf/urdf/materials.xacro" />
+<xacro:include filename="/home/keigo/inrof2026_koma_urdf/urdf/assembly_main.trans" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0016685480823734394 0.09587231603609693 0.01410222124869956" rpy="0 0 0"/>
+    <mass value="4.116732793254999"/>
+    <inertia ixx="0.013163" iyy="0.013452" izz="0.024089" ixy="0.000254" iyz="2.5e-05" ixz="-4.4e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="aluminum_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arm_bracket_temp_v12_1">
+  <inertial>
+    <origin xyz="0.011893307409353286 0.004680842759964748 0.022739357849046002" rpy="0 0 0"/>
+    <mass value="0.16496925038992882"/>
+    <inertia ixx="9e-05" iyy="7e-05" izz="5.2e-05" ixy="-1.7e-05" iyz="5e-06" ixz="-8e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.035703 -0.064664 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/arm_bracket_temp_v12_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.035703 -0.064664 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/arm_bracket_temp_v12_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_control_board_v7_2">
+  <inertial>
+    <origin xyz="-0.008950875512003416 -0.039393966482722906 0.10000262508964408" rpy="0 0 0"/>
+    <mass value="0.05597515361092653"/>
+    <inertia ixx="2.1e-05" iyy="1.9e-05" izz="4e-05" ixy="-1e-05" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.011791 -0.121741 -0.0381" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.011791 -0.121741 -0.0381" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="raspi4_bracket_v1_1">
+  <inertial>
+    <origin xyz="1.0358811586286266e-11 -0.004190801342254108 0.011212626337856427" rpy="0 0 0"/>
+    <mass value="0.10292684148685698"/>
+    <inertia ixx="2e-05" iyy="4.1e-05" izz="4.4e-05" ixy="0.0" iyz="4e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.176825 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/raspi4_bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.176825 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/raspi4_bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="raspi4_v2_1">
+  <inertial>
+    <origin xyz="3.881339694089547e-15 0.014999583655189608 0.03859010164223097" rpy="0 0 0"/>
+    <mass value="0.7390104624417327"/>
+    <inertia ixx="0.000465" iyy="0.000631" izz="0.000215" ixy="0.0" iyz="0.0" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.163825 -0.0575" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/raspi4_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.163825 -0.0575" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/raspi4_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lipo_bracket_v5_1">
+  <inertial>
+    <origin xyz="-0.02145046736939967 -0.02300777254127473 0.025572386759107592" rpy="0 0 0"/>
+    <mass value="0.15095338739595293"/>
+    <inertia ixx="0.000129" iyy="0.000116" izz="9.8e-05" ixy="-1.2e-05" iyz="-0.0" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.040468 -0.155581 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/lipo_bracket_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.040468 -0.155581 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/lipo_bracket_v5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="DZ47B-63_circuit_breaker_holder_v3_1">
+  <inertial>
+    <origin xyz="0.02229875370121319 -0.03862280991922731 0.002938007686629586" rpy="0 0 0"/>
+    <mass value="0.012274791356152887"/>
+    <inertia ixx="1.5e-05" iyy="5e-06" izz="2e-05" ixy="8e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.088434 -0.095997 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/DZ47B-63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.088434 -0.095997 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/DZ47B-63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arm_root_v1_1">
+  <inertial>
+    <origin xyz="0.019613622126277777 -0.011324599028677579 -0.009707737296854035" rpy="0 0 0"/>
+    <mass value="0.3893898243402566"/>
+    <inertia ixx="8.6e-05" iyy="0.000116" izz="0.000111" ixy="2.6e-05" iyz="1e-06" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.053261 -0.066075 -0.0765" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/arm_root_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.053261 -0.066075 -0.0765" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/arm_root_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_control_board_v7_1">
+  <inertial>
+    <origin xyz="0.009908124487998424 0.03799703351727894 0.0016026250896445035" rpy="0 0 0"/>
+    <mass value="0.05597515361092653"/>
+    <inertia ixx="2.1e-05" iyy="1.9e-05" izz="4e-05" ixy="-1e-05" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.03065 -0.04435 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.03065 -0.04435 -0.0365" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/wheel_control_board_v7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pitch_1_test_v1_1">
+  <inertial>
+    <origin xyz="0.0328465922924564 -0.018706756231211926 -0.0010892901314617925" rpy="0 0 0"/>
+    <mass value="0.5173712582672985"/>
+    <inertia ixx="0.000196" iyy="0.000247" izz="0.000212" ixy="3.9e-05" iyz="3.1e-05" ixz="-5.5e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.088941 -0.045475 -0.08955" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.088941 -0.045475 -0.08955" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="roll_1_test_v1_1">
+  <inertial>
+    <origin xyz="0.04136948087302786 0.0005946999542336038 0.017590075270092265" rpy="0 0 0"/>
+    <mass value="0.45569427768407117"/>
+    <inertia ixx="0.000154" iyy="0.000161" izz="0.00013" ixy="6e-06" iyz="5e-06" ixz="-9e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.132633 0.003249 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/roll_1_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.132633 0.003249 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/roll_1_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pitch_2_test_v1_1">
+  <inertial>
+    <origin xyz="0.02310996157289455 -0.013751811536932397 -2.9731213324613037e-10" rpy="0 0 0"/>
+    <mass value="0.4049688490988578"/>
+    <inertia ixx="8.5e-05" iyy="0.000109" izz="0.000143" ixy="1.7e-05" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.192076 0.013089 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/pitch_2_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.192076 0.013089 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/pitch_2_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="roll_2_test_v1_1">
+  <inertial>
+    <origin xyz="0.041372396148530305 0.0005933410812946349 0.01761719047417358" rpy="0 0 0"/>
+    <mass value="0.45660397486942944"/>
+    <inertia ixx="0.000154" iyy="0.000161" izz="0.00013" ixy="6e-06" iyz="5e-06" ixz="-9e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.221587 0.054376 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/roll_2_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.221587 0.054376 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/roll_2_test_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="hand_unit_v1_1">
+  <inertial>
+    <origin xyz="0.02827117996488704 -0.01613952894578953 -0.014188170173815906" rpy="0 0 0"/>
+    <mass value="0.6163609537224307"/>
+    <inertia ixx="0.000331" iyy="0.000439" izz="0.000371" ixy="9.2e-05" iyz="-6e-05" ixz="0.00011"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.281031 0.064216 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/hand_unit_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.281031 0.064216 -0.095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/hand_unit_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="hand_finger_v2_1">
+  <inertial>
+    <origin xyz="0.042291236138162824 0.0006403953404404278 0.02461729439488529" rpy="0 0 0"/>
+    <mass value="0.18316176934492862"/>
+    <inertia ixx="6.5e-05" iyy="9.8e-05" izz="0.000134" ixy="2.8e-05" iyz="1.3e-05" ixz="-2.3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.292144 0.096267 -0.108" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/hand_finger_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.292144 0.096267 -0.108" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_main_description/meshes/hand_finger_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 4" type="fixed">
+  <origin xyz="0.035703 0.064664 0.0365" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="arm_bracket_temp_v12_1"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="0.018859 0.077391 0.0016" rpy="0 0 0"/>
+  <parent link="wheel_control_board_v7_1"/>
+  <child link="wheel_control_board_v7_2"/>
+</joint>
+
+<joint name="Rigid 7" type="fixed">
+  <origin xyz="0.0 0.176825 0.0365" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="raspi4_bracket_v1_1"/>
+</joint>
+
+<joint name="Rigid 8" type="fixed">
+  <origin xyz="0.0 -0.013 0.021" rpy="0 0 0"/>
+  <parent link="raspi4_bracket_v1_1"/>
+  <child link="raspi4_v2_1"/>
+</joint>
+
+<joint name="Rigid 16" type="fixed">
+  <origin xyz="-0.040468 0.155581 0.0365" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lipo_bracket_v5_1"/>
+</joint>
+
+<joint name="Rigid 17" type="fixed">
+  <origin xyz="-0.088434 0.095997 0.0365" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="DZ47B-63_circuit_breaker_holder_v3_1"/>
+</joint>
+
+<joint name="Rigid 26" type="fixed">
+  <origin xyz="0.017558 0.001411 0.04" rpy="0 0 0"/>
+  <parent link="arm_bracket_temp_v12_1"/>
+  <child link="arm_root_v1_1"/>
+</joint>
+
+<joint name="Rigid 27" type="fixed">
+  <origin xyz="-0.03065 0.04435 0.0365" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="wheel_control_board_v7_1"/>
+</joint>
+
+<joint name="Revolute 1" type="revolute">
+  <origin xyz="0.03568 -0.0206 0.01305" rpy="0 0 0"/>
+  <parent link="arm_root_v1_1"/>
+  <child link="pitch_1_test_v1_1"/>
+  <axis xyz="-0.0 0.0 -1.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute_2" type="revolute">
+  <origin xyz="0.043692 -0.048724 0.00545" rpy="0 0 0"/>
+  <parent link="pitch_1_test_v1_1"/>
+  <child link="roll_1_test_v1_1"/>
+  <axis xyz="0.5 0.866025 -0.0"/>
+  <limit upper="1.919862" lower="-1.396263" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute_3" type="continuous">
+  <origin xyz="0.059443 -0.00984 0.0" rpy="0 0 0"/>
+  <parent link="roll_1_test_v1_1"/>
+  <child link="pitch_2_test_v1_1"/>
+  <axis xyz="0.866025 -0.5 0.0"/>
+</joint>
+
+<joint name="Revolute_4" type="revolute">
+  <origin xyz="0.029511 -0.041287 0.0" rpy="0 0 0"/>
+  <parent link="pitch_2_test_v1_1"/>
+  <child link="roll_2_test_v1_1"/>
+  <axis xyz="0.5 0.866025 0.0"/>
+  <limit upper="1.919862" lower="-1.48353" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute_5" type="continuous">
+  <origin xyz="0.059444 -0.00984 0.0" rpy="0 0 0"/>
+  <parent link="roll_2_test_v1_1"/>
+  <child link="hand_unit_v1_1"/>
+  <axis xyz="-0.866025 0.5 -0.0"/>
+</joint>
+
+<joint name="Revolute_6" type="revolute">
+  <origin xyz="0.011113 -0.032051 0.013" rpy="0 0 0"/>
+  <parent link="hand_unit_v1_1"/>
+  <child link="hand_finger_v2_1"/>
+  <axis xyz="0.5 0.866025 0.0"/>
+  <limit upper="0.872665" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+</robot>

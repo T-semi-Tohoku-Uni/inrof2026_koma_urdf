@@ -13,12 +13,12 @@
   <material name="aluminum_satin">
     <color rgba="0.9607843137254902 0.9607843137254902 0.9647058823529412 1.0"/>
   </material>
-  <transmission name="Revolute 1_tran">
+  <transmission name="Revolute_1_tran">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Revolute 1">
+    <joint name="Revolute_1">
       <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
-    <actuator name="Revolute 1_actr">
+    <actuator name="Revolute_1_actr">
       <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
@@ -363,7 +363,7 @@
     <parent link="arm_bracket_temp_v12_1"/>
     <child link="arm_root_v1_1"/>
   </joint>
-  <joint name="Revolute 1" type="revolute">
+  <joint name="Revolute_1" type="revolute">
     <origin rpy="0 0 0" xyz="0.03568 -0.0206 0.01305"/>
     <parent link="arm_root_v1_1"/>
     <child link="pitch_1_test_v1_1"/>

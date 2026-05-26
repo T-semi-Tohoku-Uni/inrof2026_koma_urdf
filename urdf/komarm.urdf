@@ -76,7 +76,7 @@
   <link name="base_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.0016685480823734394 0.09587231603609693 0.01410222124869956"/>
-      <mass value="4.116732793254999"/>
+      <mass value="20.0"/>
       <inertia ixx="0.013163" ixy="0.000254" ixz="-4.4e-05" iyy="0.013452" iyz="2.5e-05" izz="0.024089"/>
     </inertial>
     <visual>

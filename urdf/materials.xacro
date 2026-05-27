@@ -10,5 +10,8 @@
 <material name="aluminum_satin">
   <color rgba="0.9607843137254902 0.9607843137254902 0.9647058823529412 1.0"/>
 </material>
+<material name="abs_white">
+  <color rgba="0.9647058823529412 0.9647058823529412 0.9529411764705882 1.0"/>
+</material>
 
 </robot>

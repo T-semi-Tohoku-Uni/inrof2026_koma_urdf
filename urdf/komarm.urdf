@@ -78,9 +78,9 @@
   </transmission>
   <link name="base_link">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.0016685480823734394 0.09587231603609693 0.01410222124869956"/>
-      <mass value="10.0"/>
-      <inertia ixx="0.013163" ixy="0.000254" ixz="-4.4e-05" iyy="0.013452" iyz="2.5e-05" izz="0.024089"/>
+      <origin rpy="0 0 0" xyz="0.001924209931808292 9.588003529118677e-06 -0.017397201457223316"/>
+      <mass value="10.00"/>
+      <inertia ixx="0.013016" ixy="2e-06" ixz="-5.1e-05" iyy="0.013601" iyz="-1e-06" izz="0.02409"/>
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -98,19 +98,19 @@
   </link>
   <link name="arm_bracket_temp_v12_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.011893307409353286 0.004680842759964748 0.022739357849046002"/>
+      <origin rpy="0 0 0" xyz="0.007959481790445908 0.009999999999998583 0.02273935784904592"/>
       <mass value="0.16496925038992882"/>
-      <inertia ixx="9e-05" ixy="-1.7e-05" ixz="-8e-06" iyy="7e-05" iyz="5e-06" izz="5.2e-05"/>
+      <inertia ixx="9.9e-05" ixy="-0.0" ixz="-1e-05" iyy="6.1e-05" iyz="-0.0" izz="5.2e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.035703 -0.064664 -0.0365"/>
+      <origin rpy="0 0 0" xyz="-0.047 0.01 -0.005"/>
       <geometry>
         <mesh filename="../meshes/arm_bracket_temp_v12_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="steel_satin"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.035703 -0.064664 -0.0365"/>
+      <origin rpy="0 0 0" xyz="-0.047 0.01 -0.005"/>
       <geometry>
         <mesh filename="../meshes/arm_bracket_temp_v12_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -118,19 +118,19 @@
   </link>
   <link name="raspi4_bracket_v1_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="1.0358811586286266e-11 -0.004190801342254108 0.011212626337856427"/>
+      <origin rpy="0 0 0" xyz="0.0020951925076898026 -0.0036289475514907216 0.011212626337856312"/>
       <mass value="0.10292684148685698"/>
-      <inertia ixx="2e-05" ixy="0.0" ixz="-0.0" iyy="4.1e-05" iyz="4e-06" izz="4.4e-05"/>
+      <inertia ixx="2.6e-05" ixy="-9e-06" ixz="-2e-06" iyy="3.6e-05" iyz="4e-06" izz="4.4e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.0 -0.176825 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.04 -0.069282 -0.005"/>
       <geometry>
         <mesh filename="../meshes/raspi4_bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="steel_satin"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.0 -0.176825 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.04 -0.069282 -0.005"/>
       <geometry>
         <mesh filename="../meshes/raspi4_bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -138,19 +138,19 @@
   </link>
   <link name="raspi4_v2_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="3.881339694089547e-15 0.014999583655189608 0.03859010164223097"/>
+      <origin rpy="0 0 0" xyz="-0.00749999999999993 0.01299008311032395 0.038590101642230826"/>
       <mass value="0.7390104624417327"/>
-      <inertia ixx="0.000465" ixy="0.0" ixz="1e-06" iyy="0.000631" iyz="0.0" izz="0.000215"/>
+      <inertia ixx="0.000507" ixy="-7.2e-05" ixz="1e-06" iyy="0.00059" iyz="1e-06" izz="0.000215"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.0 -0.163825 -0.0575"/>
+      <origin rpy="0 0 0" xyz="0.0335 -0.058024 -0.026"/>
       <geometry>
         <mesh filename="../meshes/raspi4_v2_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="steel_satin"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.0 -0.163825 -0.0575"/>
+      <origin rpy="0 0 0" xyz="0.0335 -0.058024 -0.026"/>
       <geometry>
         <mesh filename="../meshes/raspi4_v2_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -158,19 +158,19 @@
   </link>
   <link name="lipo_bracket_v5_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="-0.02145046736939967 -0.02300777254127473 0.025572386759107592"/>
+      <origin rpy="0 0 0" xyz="-0.007072287607066324 -0.03064999999999981 0.02557238675910756"/>
       <mass value="0.15095338739595293"/>
-      <inertia ixx="0.000129" ixy="-1.2e-05" ixz="1e-06" iyy="0.000116" iyz="-0.0" izz="9.8e-05"/>
+      <inertia ixx="0.000136" ixy="-0.0" ixz="1e-06" iyy="0.000109" iyz="0.0" izz="9.8e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="0.040468 -0.155581 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.064425 -0.03065 -0.005"/>
       <geometry>
         <mesh filename="../meshes/lipo_bracket_v5_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="steel_satin"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0.040468 -0.155581 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.064425 -0.03065 -0.005"/>
       <geometry>
         <mesh filename="../meshes/lipo_bracket_v5_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -178,19 +178,19 @@
   </link>
   <link name="DZ47B_63_circuit_breaker_holder_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.02229875370121319 -0.03862280991922731 0.002938007686629586"/>
+      <origin rpy="0 0 0" xyz="0.03862239340692045 -0.022298666174134715 0.0029380076866297187"/>
       <mass value="0.012274791356152887"/>
-      <inertia ixx="1.5e-05" ixy="8e-06" ixz="-0.0" iyy="5e-06" iyz="0.0" izz="2e-05"/>
+      <inertia ixx="5e-06" ixy="8e-06" ixz="-0.0" iyy="1.5e-05" iyz="0.0" izz="2e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="0.088434 -0.095997 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.076172 0.044934 -0.005"/>
       <geometry>
         <mesh filename="../meshes/DZ47B_63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="steel_satin"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0.088434 -0.095997 -0.0365"/>
+      <origin rpy="0 0 0" xyz="0.076172 0.044934 -0.005"/>
       <geometry>
         <mesh filename="../meshes/DZ47B_63_circuit_breaker_holder_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -198,19 +198,19 @@
   </link>
   <link name="arm_root_v4_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.022163724443126365 -0.012796901291084212 -0.009138901606431687"/>
+      <origin rpy="0 0 0" xyz="0.02559296991432554 1.2574053551176077e-11 -0.009138901606431792"/>
       <mass value="0.06457976620923557"/>
-      <inertia ixx="1.6e-05" ixy="5e-06" ixz="-1e-06" iyy="2.1e-05" iyz="0.0" izz="1.9e-05"/>
+      <inertia ixx="1.3e-05" ixy="0.0" ixz="-1e-06" iyy="2.4e-05" iyz="0.0" izz="1.9e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.053261 -0.066075 -0.0765"/>
+      <origin rpy="0 0 0" xyz="-0.0615 -0.0 -0.045"/>
       <geometry>
         <mesh filename="../meshes/arm_root_v4_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.053261 -0.066075 -0.0765"/>
+      <origin rpy="0 0 0" xyz="-0.0615 -0.0 -0.045"/>
       <geometry>
         <mesh filename="../meshes/arm_root_v4_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -218,19 +218,19 @@
   </link>
   <link name="pitch_1_test_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.0358303038564968 -0.019899545668259706 -0.00013072073296151177"/>
+      <origin rpy="0 0 0" xyz="0.04097968346475826 0.0006820959366182021 -0.0001307207329616436"/>
       <mass value="0.08186133563123103"/>
-      <inertia ixx="3e-05" ixy="6e-06" ixz="-9e-06" iyy="4e-05" iyz="5e-06" izz="3.7e-05"/>
+      <inertia ixx="2.7e-05" ixy="-1e-06" ixz="-1e-05" iyy="4.3e-05" iyz="-0.0" izz="3.7e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.088941 -0.045475 -0.08955"/>
+      <origin rpy="0 0 0" xyz="-0.1027 0.0 -0.05805"/>
       <geometry>
         <mesh filename="../meshes/pitch_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.088941 -0.045475 -0.08955"/>
+      <origin rpy="0 0 0" xyz="-0.1027 0.0 -0.05805"/>
       <geometry>
         <mesh filename="../meshes/pitch_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -238,19 +238,19 @@
   </link>
   <link name="roll_1_test_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.042100640863960814 0.00017256453450652937 0.015160914691842262"/>
+      <origin rpy="0 0 0" xyz="0.0363742814442784 0.0212000000095127 0.015160914691842164"/>
       <mass value="0.07353297901744495"/>
-      <inertia ixx="2.5e-05" ixy="2e-06" ixz="-0.0" iyy="2.7e-05" iyz="0.0" izz="2.1e-05"/>
+      <inertia ixx="2.4e-05" ixy="0.0" ixz="-1e-06" iyy="2.9e-05" iyz="-0.0" izz="2.1e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.132633 0.003249 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.1649 0.02035 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/roll_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.132633 0.003249 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.1649 0.02035 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/roll_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -258,19 +258,19 @@
   </link>
   <link name="pitch_2_test_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.025973068908376362 -0.014769408547619371 -2.946918264967735e-10"/>
+      <origin rpy="0 0 0" xyz="0.029877529047602214 0.0001958957866964999 -2.9469195139686377e-10"/>
       <mass value="0.06668343069893205"/>
-      <inertia ixx="1.5e-05" ixy="2e-06" ixz="-0.0" iyy="1.9e-05" iyz="0.0" izz="2.6e-05"/>
+      <inertia ixx="1.4e-05" ixy="-1e-06" ixz="-0.0" iyy="2e-05" iyz="-0.0" izz="2.6e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.192076 0.013089 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.2213 -0.00085 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/pitch_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.192076 0.013089 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.2213 -0.00085 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/pitch_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -278,19 +278,19 @@
   </link>
   <link name="roll_2_test_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.04210189544568463 0.000172164463575597 0.015187663571532464"/>
+      <origin rpy="0 0 0" xyz="0.036375491747628774 0.021200000009496393 0.015187663571532395"/>
       <mass value="0.07365581710871624"/>
-      <inertia ixx="2.5e-05" ixy="2e-06" ixz="-0.0" iyy="2.7e-05" iyz="0.0" izz="2.1e-05"/>
+      <inertia ixx="2.4e-05" ixy="0.0" ixz="-1e-06" iyy="2.9e-05" iyz="-0.0" izz="2.1e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.221587 0.054376 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.2675 0.02015 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/roll_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.221587 0.054376 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.2675 0.02015 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/roll_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -298,112 +298,112 @@
   </link>
   <link name="hand_unit_v3_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.027318565725242272 -0.01604965279786605 -0.011102966860764008"/>
+      <origin rpy="0 0 0" xyz="0.031683675390487276 -0.00023986066792197516 -0.011102966860764112"/>
       <mass value="0.0952280970557457"/>
-      <inertia ixx="5.4e-05" ixy="1.1e-05" ixz="1.7e-05" iyy="6.8e-05" iyz="-8e-06" izz="5.4e-05"/>
+      <inertia ixx="4.8e-05" ixy="-0.0" ixz="1.9e-05" iyy="7.4e-05" iyz="1e-06" izz="5.4e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.281031 0.064216 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.3239 -0.00105 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/hand_unit_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.281031 0.064216 -0.095"/>
+      <origin rpy="0 0 0" xyz="-0.3239 -0.00105 -0.0635"/>
       <geometry>
         <mesh filename="../meshes/hand_unit_v3_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
-  <link name="hand_finger_v6_1">
+  <link name="hand_finger_v7_1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.04229123613816288 0.0006403953404404278 0.02461729439488529"/>
+      <origin rpy="0 0 0" xyz="0.03630500457367125 0.02170000000000132 0.024617294394885247"/>
       <mass value="0.024732672038933038"/>
-      <inertia ixx="9e-06" ixy="4e-06" ixz="-3e-06" iyy="1.3e-05" iyz="2e-06" izz="1.8e-05"/>
+      <inertia ixx="7e-06" ixy="-0.0" ixz="-4e-06" iyy="1.5e-05" iyz="0.0" izz="1.8e-05"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="-0.292144 0.096267 -0.108"/>
+      <origin rpy="0 0 0" xyz="-0.34955 0.02115 -0.0765"/>
       <geometry>
-        <mesh filename="../meshes/hand_finger_v6_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="../meshes/hand_finger_v7_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="abs_white"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-0.292144 0.096267 -0.108"/>
+      <origin rpy="0 0 0" xyz="-0.34955 0.02115 -0.0765"/>
       <geometry>
-        <mesh filename="../meshes/hand_finger_v6_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="../meshes/hand_finger_v7_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
   <joint name="Rigid 4" type="fixed">
-    <origin rpy="0 0 0" xyz="0.035703 0.064664 0.0365"/>
+    <origin rpy="0 0 0" xyz="0.047 -0.01 0.005"/>
     <parent link="base_link"/>
     <child link="arm_bracket_temp_v12_1"/>
   </joint>
   <joint name="Rigid 7" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.176825 0.0365"/>
+    <origin rpy="0 0 0" xyz="-0.04 0.069282 0.005"/>
     <parent link="base_link"/>
     <child link="raspi4_bracket_v1_1"/>
   </joint>
   <joint name="Rigid 8" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 -0.013 0.021"/>
+    <origin rpy="0 0 0" xyz="0.0065 -0.011258 0.021"/>
     <parent link="raspi4_bracket_v1_1"/>
     <child link="raspi4_v2_1"/>
   </joint>
   <joint name="Rigid 16" type="fixed">
-    <origin rpy="0 0 0" xyz="-0.040468 0.155581 0.0365"/>
+    <origin rpy="0 0 0" xyz="-0.064425 0.03065 0.005"/>
     <parent link="base_link"/>
     <child link="lipo_bracket_v5_1"/>
   </joint>
   <joint name="Rigid 17" type="fixed">
-    <origin rpy="0 0 0" xyz="-0.088434 0.095997 0.0365"/>
+    <origin rpy="0 0 0" xyz="-0.076172 -0.044934 0.005"/>
     <parent link="base_link"/>
     <child link="DZ47B_63_circuit_breaker_holder_v3_1"/>
   </joint>
   <joint name="Rigid 26" type="fixed">
-    <origin rpy="0 0 0" xyz="0.017558 0.001411 0.04"/>
+    <origin rpy="0 0 0" xyz="0.0145 0.01 0.04"/>
     <parent link="arm_bracket_temp_v12_1"/>
     <child link="arm_root_v4_1"/>
   </joint>
   <joint name="Revolute_1" type="revolute">
-    <origin rpy="0 0 0" xyz="0.03568 -0.0206 0.01305"/>
+    <origin rpy="0 0 0" xyz="0.0412 -0.0 0.01305"/>
     <parent link="arm_root_v4_1"/>
     <child link="pitch_1_test_v3_1"/>
-    <axis xyz="-0.0 0.0 -1.0"/>
+    <axis xyz="0.0 -0.0 -1.0"/>
     <limit effort="100" lower="-1.570796" upper="1.570796" velocity="100"/>
   </joint>
   <joint name="Revolute_2" type="revolute">
-    <origin rpy="0 0 0" xyz="0.043692 -0.048724 0.00545"/>
+    <origin rpy="0 0 0" xyz="0.0622 -0.02035 0.00545"/>
     <parent link="pitch_1_test_v3_1"/>
     <child link="roll_1_test_v3_1"/>
-    <axis xyz="0.5 0.866025 -0.0"/>
+    <axis xyz="-0.0 1.0 -0.0"/>
     <limit effort="100" lower="-1.396263" upper="1.919862" velocity="100"/>
   </joint>
   <joint name="Revolute_3" type="continuous">
-    <origin rpy="0 0 0" xyz="0.059443 -0.00984 0.0"/>
+    <origin rpy="0 0 0" xyz="0.0564 0.0212 0.0"/>
     <parent link="roll_1_test_v3_1"/>
     <child link="pitch_2_test_v3_1"/>
-    <axis xyz="0.866025 -0.5 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
   </joint>
   <joint name="Revolute_4" type="revolute">
-    <origin rpy="0 0 0" xyz="0.029511 -0.041287 0.0"/>
+    <origin rpy="0 0 0" xyz="0.0462 -0.021 0.0"/>
     <parent link="pitch_2_test_v3_1"/>
     <child link="roll_2_test_v3_1"/>
-    <axis xyz="0.5 0.866025 0.0"/>
+    <axis xyz="-0.0 1.0 0.0"/>
     <limit effort="100" lower="-1.48353" upper="1.919862" velocity="100"/>
   </joint>
   <joint name="Revolute_5" type="continuous">
-    <origin rpy="0 0 0" xyz="0.059444 -0.00984 0.0"/>
+    <origin rpy="0 0 0" xyz="0.0564 0.0212 0.0"/>
     <parent link="roll_2_test_v3_1"/>
     <child link="hand_unit_v3_1"/>
-    <axis xyz="-0.866025 0.5 -0.0"/>
+    <axis xyz="-1.0 0.0 -0.0"/>
   </joint>
   <joint name="Revolute_6" type="revolute">
-    <origin rpy="0 0 0" xyz="0.011113 -0.032051 0.013"/>
+    <origin rpy="0 0 0" xyz="0.02565 -0.0222 0.013"/>
     <parent link="hand_unit_v3_1"/>
-    <child link="hand_finger_v6_1"/>
-    <axis xyz="0.5 0.866025 0.0"/>
+    <child link="hand_finger_v7_1"/>
+    <axis xyz="0.0 1.0 -0.0"/>
     <limit effort="100" lower="-1.047198" upper="0.872665" velocity="100"/>
   </joint>
 </robot>

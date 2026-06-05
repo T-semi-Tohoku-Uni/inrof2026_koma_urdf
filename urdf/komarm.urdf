@@ -209,12 +209,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.0615 -0.0 -0.045"/>
-      <geometry>
-        <mesh filename="../meshes/arm_root_v4_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="pitch_1_test_v3_1">
     <inertial>
@@ -229,12 +223,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.1027 0.0 -0.05805"/>
-      <geometry>
-        <mesh filename="../meshes/pitch_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="roll_1_test_v3_1">
     <inertial>
@@ -249,12 +237,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.1649 0.02035 -0.0635"/>
-      <geometry>
-        <mesh filename="../meshes/roll_1_test_v3_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="pitch_2_test_v3_1">
     <inertial>
@@ -269,12 +251,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.2213 -0.00085 -0.0635"/>
-      <geometry>
-        <mesh filename="../meshes/pitch_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="roll_2_test_v3_1">
     <inertial>
@@ -289,12 +265,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.2675 0.02015 -0.0635"/>
-      <geometry>
-        <mesh filename="../meshes/roll_2_test_v3_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="hand_unit_v3_1">
     <inertial>
@@ -309,12 +279,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.3239 -0.00105 -0.0635"/>
-      <geometry>
-        <mesh filename="../meshes/hand_unit_v3_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <link name="hand_finger_v7_1">
     <inertial>
@@ -329,12 +293,6 @@
       </geometry>
       <material name="abs_white"/>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="-0.34955 0.02115 -0.0765"/>
-      <geometry>
-        <mesh filename="../meshes/hand_finger_v7_1.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
   </link>
   <joint name="Rigid 4" type="fixed">
     <origin rpy="0 0 0" xyz="0.047 -0.01 0.005"/>

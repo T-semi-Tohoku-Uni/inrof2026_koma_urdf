@@ -371,39 +371,41 @@
     <parent link="arm_root_v4_1"/>
     <child link="pitch_1_test_v3_1"/>
     <axis xyz="0.0 -0.0 -1.0"/>
-    <limit effort="100" lower="-1.570796" upper="1.570796" velocity="100"/>
+    <limit effort="1.5" lower="-1.570796" upper="1.570796" velocity="4.0"/>
   </joint>
   <joint name="Revolute_2" type="revolute">
     <origin rpy="0 0 0" xyz="0.0622 -0.02035 0.00545"/>
     <parent link="pitch_1_test_v3_1"/>
     <child link="roll_1_test_v3_1"/>
     <axis xyz="-0.0 1.0 -0.0"/>
-    <limit effort="100" lower="-1.396263" upper="1.919862" velocity="100"/>
+    <limit effort="1.5" lower="-1.396263" upper="1.919862" velocity="4.0"/>
   </joint>
   <joint name="Revolute_3" type="continuous">
     <origin rpy="0 0 0" xyz="0.0564 0.0212 0.0"/>
     <parent link="roll_1_test_v3_1"/>
     <child link="pitch_2_test_v3_1"/>
     <axis xyz="1.0 0.0 0.0"/>
+    <limit effort="1.5" velocity="4.0"/>
   </joint>
   <joint name="Revolute_4" type="revolute">
     <origin rpy="0 0 0" xyz="0.0462 -0.021 0.0"/>
     <parent link="pitch_2_test_v3_1"/>
     <child link="roll_2_test_v3_1"/>
     <axis xyz="-0.0 1.0 0.0"/>
-    <limit effort="100" lower="-1.48353" upper="1.919862" velocity="100"/>
+    <limit effort="1.5" lower="-1.48353" upper="1.919862" velocity="4.0"/>
   </joint>
   <joint name="Revolute_5" type="continuous">
     <origin rpy="0 0 0" xyz="0.0564 0.0212 0.0"/>
     <parent link="roll_2_test_v3_1"/>
     <child link="hand_unit_v3_1"/>
     <axis xyz="-1.0 0.0 -0.0"/>
+    <limit effort="1.5" velocity="4.0"/>
   </joint>
   <joint name="Revolute_6" type="revolute">
     <origin rpy="0 0 0" xyz="0.02565 -0.0222 0.013"/>
     <parent link="hand_unit_v3_1"/>
     <child link="hand_finger_v7_1"/>
     <axis xyz="0.0 1.0 -0.0"/>
-    <limit effort="100" lower="-1.047198" upper="0.872665" velocity="100"/>
+    <limit effort="1.5" lower="-1.047198" upper="0.872665" velocity="4.0"/>
   </joint>
 </robot>

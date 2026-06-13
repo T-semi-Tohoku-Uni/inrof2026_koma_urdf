@@ -356,7 +356,7 @@
       <geometry>
         <mesh filename="../meshes/hand_unit_v24_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="powder_coat_red"/>
+      <material name="oak"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.326022 -0.00074 -0.07071"/>

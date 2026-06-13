@@ -215,19 +215,19 @@
 
 <link name="roll_1_test_v5_1">
   <inertial>
-    <origin xyz="0.03637405135165478 0.021199665031562592 0.01516050912430894" rpy="0 0 0"/>
+    <origin xyz="0.033338146216900594 0.020028208922864197 0.022131171383437162" rpy="0 0 0"/>
     <mass value="0.07353297901744495"/>
-    <inertia ixx="2.4e-05" iyy="2.9e-05" izz="2.1e-05" ixy="0.0" iyz="-0.0" ixz="-1e-06"/>
+    <inertia ixx="2.4e-05" iyy="2.9e-05" izz="2.1e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.167022 0.02086 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.166241 0.02309 -0.07071" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/roll_1_test_v5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="oak"/>
   </visual>
   <collision>
-    <origin xyz="-0.167022 0.02086 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.166241 0.02309 -0.07071" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/roll_1_test_v5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -236,19 +236,19 @@
 
 <link name="pitch_2_test_v8_1">
   <inertial>
-    <origin xyz="0.03178013194406887 0.0006984560339183855 2.224449801857542e-07" rpy="0 0 0"/>
+    <origin xyz="0.0311465623628171 -0.0004080664992568701 0.0063401442351962295" rpy="0 0 0"/>
     <mass value="0.058119652228533734"/>
-    <inertia ixx="1e-05" iyy="1.7e-05" izz="2.2e-05" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+    <inertia ixx="1.1e-05" iyy="1.7e-05" izz="2.2e-05" ixy="-0.0" iyz="0.0" ixz="-2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.223422 -0.00034 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.222219 0.003867 -0.081993" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_2_test_v8_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="abs_white"/>
   </visual>
   <collision>
-    <origin xyz="-0.223422 -0.00034 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.222219 0.003867 -0.081993" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_2_test_v8_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -257,19 +257,19 @@
 
 <link name="roll_2_test_v5_1">
   <inertial>
-    <origin xyz="0.03637526165500471 0.021199665031547958 0.01518725800399906" rpy="0 0 0"/>
+    <origin xyz="0.037026448800230594 0.02011130721296018 0.015094199070528766" rpy="0 0 0"/>
     <mass value="0.07365581710871624"/>
     <inertia ixx="2.4e-05" iyy="2.9e-05" izz="2.1e-05" ixy="0.0" iyz="-0.0" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.269622 0.02046 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.266604 0.02625 -0.091794" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/roll_2_test_v5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="oak"/>
   </visual>
   <collision>
-    <origin xyz="-0.269622 0.02046 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.266604 0.02625 -0.091794" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/roll_2_test_v5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -278,19 +278,19 @@
 
 <link name="hand_unit_v24_1">
   <inertial>
-    <origin xyz="0.04271982308354361 0.0008883936005940364 -0.01564916082835558" rpy="0 0 0"/>
+    <origin xyz="0.04289771903858419 -0.0015191951909393686 -0.01510531326448633" rpy="0 0 0"/>
     <mass value="0.13230659416117943"/>
-    <inertia ixx="0.0001" iyy="0.000138" izz="0.000151" ixy="-2e-06" iyz="2e-06" ixz="3.9e-05"/>
+    <inertia ixx="9.9e-05" iyy="0.000138" izz="0.000152" ixy="1e-06" iyz="1e-06" ixz="3.9e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.326022 -0.00074 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.323821 0.007368 -0.091973" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/hand_unit_v24_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="powder_coat_red"/>
   </visual>
   <collision>
-    <origin xyz="-0.326022 -0.00074 -0.07071" rpy="0 0 0"/>
+    <origin xyz="-0.323821 0.007368 -0.091973" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/hand_unit_v24_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -299,19 +299,19 @@
 
 <link name="hand_finger_v38_1">
   <inertial>
-    <origin xyz="0.043687929591145036 0.022199665022056586 0.02571776823957274" rpy="0 0 0"/>
+    <origin xyz="0.04146255250769765 0.021778097011469606 0.029487538405841812" rpy="0 0 0"/>
     <mass value="0.07994136386082434"/>
-    <inertia ixx="5.7e-05" iyy="4.9e-05" izz="9.7e-05" ixy="-0.0" iyz="0.0" ixz="-5e-06"/>
+    <inertia ixx="5.9e-05" iyy="4.9e-05" izz="9.5e-05" ixy="-1e-06" iyz="2e-06" ixz="-9e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.351672 0.02196 -0.08371" rpy="0 0 0"/>
+    <origin xyz="-0.348363 0.030515 -0.10626" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/hand_finger_v38_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="oak"/>
   </visual>
   <collision>
-    <origin xyz="-0.351672 0.02196 -0.08371" rpy="0 0 0"/>
+    <origin xyz="-0.348363 0.030515 -0.10626" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/hand_finger_v38_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -320,19 +320,19 @@
 
 <link name="pitch_1_test_v10_1">
   <inertial>
-    <origin xyz="0.04490669231220905 7.9610433934483e-05 -0.003678491754099282" rpy="0 0 0"/>
+    <origin xyz="0.0448811665657521 -0.0015159947037514806 0.032721508245901094" rpy="0 0 0"/>
     <mass value="0.11843544806781975"/>
-    <inertia ixx="5.6e-05" iyy="7.1e-05" izz="3.8e-05" ixy="-1e-06" iyz="-1e-06" ixz="-1.3e-05"/>
+    <inertia ixx="5.6e-05" iyy="7.1e-05" izz="3.8e-05" ixy="-0.0" iyz="-1e-06" ixz="-1.3e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.1039 -0.0 -0.0558" rpy="0 0 0"/>
+    <origin xyz="-0.1039 -0.0 -0.0194" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v10_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="steel_satin"/>
   </visual>
   <collision>
-    <origin xyz="-0.1039 -0.0 -0.0558" rpy="0 0 0"/>
+    <origin xyz="-0.1039 -0.0 -0.0194" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v10_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -394,48 +394,48 @@
 </joint>
 
 <joint name="Revolute_2" type="revolute">
-  <origin xyz="0.063122 -0.02086 0.01491" rpy="0 0 0"/>
+  <origin xyz="0.062341 -0.02309 0.05131" rpy="0 0 0"/>
   <parent link="pitch_1_test_v10_1"/>
   <child link="roll_1_test_v5_1"/>
-  <axis xyz="-0.0 1.0 -0.0"/>
+  <axis xyz="0.03553 0.999369 -0.0"/>
   <limit upper="1.919862" lower="-1.396263" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Revolute_3" type="continuous">
-  <origin xyz="0.0564 0.0212 0.0" rpy="0 0 0"/>
+  <origin xyz="0.055978 0.019223 0.011283" rpy="0 0 0"/>
   <parent link="roll_1_test_v5_1"/>
   <child link="pitch_2_test_v8_1"/>
-  <axis xyz="-1.0 0.0 -0.0"/>
+  <axis xyz="-0.979164 0.034812 -0.200064"/>
 </joint>
 
 <joint name="Revolute_4" type="revolute">
-  <origin xyz="0.0462 -0.0208 0.0" rpy="0 0 0"/>
+  <origin xyz="0.044385 -0.022383 0.009801" rpy="0 0 0"/>
   <parent link="pitch_2_test_v8_1"/>
   <child link="roll_2_test_v5_1"/>
-  <axis xyz="-0.0 1.0 0.0"/>
+  <axis xyz="0.040993 0.998799 -0.026834"/>
   <limit upper="1.919862" lower="-1.48353" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Revolute_5" type="continuous">
-  <origin xyz="0.0564 0.0212 0.0" rpy="0 0 0"/>
+  <origin xyz="0.057217 0.018882 0.000179" rpy="0 0 0"/>
   <parent link="roll_2_test_v5_1"/>
   <child link="hand_unit_v24_1"/>
-  <axis xyz="1.0 0.0 0.0"/>
+  <axis xyz="-0.999086 0.040649 -0.013249"/>
 </joint>
 
 <joint name="Revolute_6" type="revolute">
-  <origin xyz="0.02565 -0.0227 0.013" rpy="0 0 0"/>
+  <origin xyz="0.024542 -0.023147 0.014287" rpy="0 0 0"/>
   <parent link="hand_unit_v24_1"/>
   <child link="hand_finger_v38_1"/>
-  <axis xyz="-0.0 1.0 0.0"/>
+  <axis xyz="0.041176 0.998256 -0.042293"/>
   <limit upper="0.872665" lower="-1.047198" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Revolute_1" type="continuous">
-  <origin xyz="0.0424 0.0 0.0118" rpy="0 0 0"/>
+  <origin xyz="0.0424 0.0 -0.0246" rpy="0 0 0"/>
   <parent link="arm_root_v6_1"/>
   <child link="pitch_1_test_v10_1"/>
-  <axis xyz="-0.0 0.0 1.0"/>
+  <axis xyz="0.0 -0.0 -1.0"/>
 </joint>
 
 </robot>

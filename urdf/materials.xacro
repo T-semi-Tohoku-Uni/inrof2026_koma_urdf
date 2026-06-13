@@ -4,14 +4,23 @@
 <material name="silver_default">
   <color rgba="0.700 0.700 0.700 1.000"/>
 </material>
+<material name="opaque141141141">
+  <color rgba="0.5529411764705883 0.5529411764705883 0.5529411764705883 1.0"/>
+</material>
 <material name="steel_satin">
   <color rgba="0.6274509803921569 0.6274509803921569 0.6274509803921569 1.0"/>
 </material>
-<material name="aluminum_satin">
-  <color rgba="0.9607843137254902 0.9607843137254902 0.9647058823529412 1.0"/>
-</material>
 <material name="abs_white">
   <color rgba="0.9647058823529412 0.9647058823529412 0.9529411764705882 1.0"/>
+</material>
+<material name="powder_coat_red">
+  <color rgba="0.7686274509803922 0.20784313725490197 0.15294117647058825 0.0"/>
+</material>
+<material name="opaque254254255">
+  <color rgba="0.996078431372549 0.996078431372549 1.0 1.0"/>
+</material>
+<material name="opaque179179179">
+  <color rgba="0.7019607843137254 0.7019607843137254 0.7019607843137254 1.0"/>
 </material>
 
 </robot>

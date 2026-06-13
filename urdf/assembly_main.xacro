@@ -152,7 +152,7 @@
 
 <link name="arm_root_v6_1">
   <inertial>
-    <origin xyz="0.028836205471188023 -6.461622099797368e-07 -0.0061030140912587336" rpy="0 0 0"/>
+    <origin xyz="0.028836205471188384 -6.461622097946888e-07 -0.006103014091259067" rpy="0 0 0"/>
     <mass value="0.05651259328313663"/>
     <inertia ixx="1e-05" iyy="2.1e-05" izz="1.6e-05" ixy="-0.0" iyz="-0.0" ixz="-1e-06"/>
   </inertial>
@@ -173,7 +173,7 @@
 
 <link name="serial_servo_driver_board_x2_v3_1">
   <inertial>
-    <origin xyz="0.01999999999999927 0.013999999418854537 -0.01849999999999563" rpy="0 0 0"/>
+    <origin xyz="0.020000000000000136 0.013999999418854167 -0.018499999999996006" rpy="0 0 0"/>
     <mass value="0.4252482194783379"/>
     <inertia ixx="9.8e-05" iyy="0.000117" izz="9.4e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
@@ -215,7 +215,7 @@
 
 <link name="roll_1_test_v5_1">
   <inertial>
-    <origin xyz="0.036374051351653836 0.021199665031561798 0.015160509124310162" rpy="0 0 0"/>
+    <origin xyz="0.03637405135165478 0.021199665031562592 0.01516050912430894" rpy="0 0 0"/>
     <mass value="0.07353297901744495"/>
     <inertia ixx="2.4e-05" iyy="2.9e-05" izz="2.1e-05" ixy="0.0" iyz="-0.0" ixz="-1e-06"/>
   </inertial>
@@ -236,7 +236,7 @@
 
 <link name="pitch_2_test_v8_1">
   <inertial>
-    <origin xyz="0.03178013194406809 0.0006984560339173065 2.2244498183721095e-07" rpy="0 0 0"/>
+    <origin xyz="0.03178013194406887 0.0006984560339183855 2.224449801857542e-07" rpy="0 0 0"/>
     <mass value="0.058119652228533734"/>
     <inertia ixx="1e-05" iyy="1.7e-05" izz="2.2e-05" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
   </inertial>
@@ -257,7 +257,7 @@
 
 <link name="roll_2_test_v5_1">
   <inertial>
-    <origin xyz="0.036375261655003766 0.021199665031546605 0.015187258004001114" rpy="0 0 0"/>
+    <origin xyz="0.03637526165500471 0.021199665031547958 0.01518725800399906" rpy="0 0 0"/>
     <mass value="0.07365581710871624"/>
     <inertia ixx="2.4e-05" iyy="2.9e-05" izz="2.1e-05" ixy="0.0" iyz="-0.0" ixz="-1e-06"/>
   </inertial>
@@ -278,7 +278,7 @@
 
 <link name="hand_unit_v24_1">
   <inertial>
-    <origin xyz="0.04271982308354294 0.0008883936005923403 -0.01564916082835291" rpy="0 0 0"/>
+    <origin xyz="0.04271982308354361 0.0008883936005940364 -0.01564916082835558" rpy="0 0 0"/>
     <mass value="0.13230659416117943"/>
     <inertia ixx="0.0001" iyy="0.000138" izz="0.000151" ixy="-2e-06" iyz="2e-06" ixz="3.9e-05"/>
   </inertial>
@@ -299,7 +299,7 @@
 
 <link name="hand_finger_v38_1">
   <inertial>
-    <origin xyz="0.04368792959114376 0.022199665022054747 0.025717768239575653" rpy="0 0 0"/>
+    <origin xyz="0.043687929591145036 0.022199665022056586 0.02571776823957274" rpy="0 0 0"/>
     <mass value="0.07994136386082434"/>
     <inertia ixx="5.7e-05" iyy="4.9e-05" izz="9.7e-05" ixy="-0.0" iyz="0.0" ixz="-5e-06"/>
   </inertial>
@@ -320,19 +320,19 @@
 
 <link name="pitch_1_test_v10_1">
   <inertial>
-    <origin xyz="0.04490669231220855 7.961043393398205e-05 -0.0036784917540984632" rpy="0 0 0"/>
+    <origin xyz="0.04490669231220905 7.9610433934483e-05 -0.003678491754099282" rpy="0 0 0"/>
     <mass value="0.11843544806781975"/>
     <inertia ixx="5.6e-05" iyy="7.1e-05" izz="3.8e-05" ixy="-1e-06" iyz="-1e-06" ixz="-1.3e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.1039 0.0 -0.0558" rpy="0 0 0"/>
+    <origin xyz="-0.1039 -0.0 -0.0558" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v10_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="steel_satin"/>
   </visual>
   <collision>
-    <origin xyz="-0.1039 0.0 -0.0558" rpy="0 0 0"/>
+    <origin xyz="-0.1039 -0.0 -0.0558" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://assembly_main_description/meshes/pitch_1_test_v10_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -420,7 +420,7 @@
   <origin xyz="0.0564 0.0212 0.0" rpy="0 0 0"/>
   <parent link="roll_2_test_v5_1"/>
   <child link="hand_unit_v24_1"/>
-  <axis xyz="-1.0 0.0 -0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <joint name="Revolute_6" type="revolute">
